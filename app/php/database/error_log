@@ -1,0 +1,77 @@
+[27-Jun-2018 08:42:21 UTC] PHP Fatal error:  Class 'php\database\PDO' not found in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 13
+[27-Jun-2018 08:46:04 UTC] PHP Fatal error:  Class 'php\database\PDO' not found in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 13
+[27-Jun-2018 08:46:13 UTC] PHP Fatal error:  Class 'php\database\PDO' not found in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 13
+[27-Jun-2018 14:22:39 Asia/Kolkata] PHP Notice:  Undefined variable: pdo in /home/durveshkumar/public_html/finalrating/app/php/database/Process.php on line 25
+[27-Jun-2018 14:22:39 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/durveshkumar/public_html/finalrating/app/php/database/Process.php on line 25
+[27-Jun-2018 14:26:57 Asia/Kolkata] PHP Notice:  Undefined variable: pdo in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 37
+[27-Jun-2018 14:26:57 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 37
+[27-Jun-2018 14:28:55 Asia/Kolkata] PHP Notice:  Undefined variable: pdo in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 37
+[27-Jun-2018 14:28:55 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 37
+[27-Jun-2018 14:31:35 Asia/Kolkata] PHP Notice:  Undefined variable: pdo in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 37
+[27-Jun-2018 14:31:35 Asia/Kolkata] PHP Fatal error:  Cannot access empty property in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 37
+[27-Jun-2018 14:32:40 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 37
+[27-Jun-2018 09:03:51 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 37
+[27-Jun-2018 14:34:33 Asia/Kolkata] PHP Notice:  Undefined variable: pdo in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 37
+[27-Jun-2018 14:34:33 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 37
+[27-Jun-2018 14:38:35 Asia/Kolkata] PHP Notice:  Undefined variable: pdo in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 35
+[27-Jun-2018 14:38:35 Asia/Kolkata] PHP Fatal error:  Cannot access empty property in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 35
+[27-Jun-2018 14:40:32 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 35
+[27-Jun-2018 14:42:35 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 35
+[27-Jun-2018 14:46:14 Asia/Kolkata] PHP Notice:  Undefined variable: pdo in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 35
+[27-Jun-2018 14:46:14 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 35
+[27-Jun-2018 14:47:02 Asia/Kolkata] PHP Notice:  Undefined variable: pdo in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 35
+[27-Jun-2018 14:47:02 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 35
+[27-Jun-2018 14:48:02 Asia/Kolkata] PHP Notice:  Undefined variable: dsn in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 35
+[27-Jun-2018 14:48:02 Asia/Kolkata] PHP Notice:  Undefined variable: options in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 35
+[27-Jun-2018 14:48:02 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'invalid data source name' in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php:35
+Stack trace:
+#0 /home/durveshkumar/public_html/finalrating/app/php/database/Database.php(35): PDO->__construct('', 'betaform', 'prem@123', NULL)
+#1 /home/durveshkumar/public_html/finalrating/app/php/database/Process.php(25): php\database\Database->insertData('5', '2018-06-27 14:4...', '', '')
+#2 {main}
+  thrown in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 35
+[27-Jun-2018 09:18:06 UTC] PHP Notice:  Undefined index: rating in /home/durveshkumar/public_html/finalrating/app/php/database/Process.php on line 11
+[27-Jun-2018 09:18:06 UTC] PHP Notice:  Undefined index: name in /home/durveshkumar/public_html/finalrating/app/php/database/Process.php on line 12
+[27-Jun-2018 09:18:06 UTC] PHP Notice:  Undefined index: mobile in /home/durveshkumar/public_html/finalrating/app/php/database/Process.php on line 13
+[27-Jun-2018 14:48:06 Asia/Kolkata] PHP Notice:  Undefined variable: dsn in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 35
+[27-Jun-2018 14:48:06 Asia/Kolkata] PHP Notice:  Undefined variable: options in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 35
+[27-Jun-2018 14:48:06 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'invalid data source name' in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php:35
+Stack trace:
+#0 /home/durveshkumar/public_html/finalrating/app/php/database/Database.php(35): PDO->__construct('', 'betaform', 'prem@123', NULL)
+#1 /home/durveshkumar/public_html/finalrating/app/php/database/Process.php(25): php\database\Database->insertData(NULL, '2018-06-27 14:4...', NULL, NULL)
+#2 {main}
+  thrown in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 35
+[27-Jun-2018 09:23:56 UTC] PHP Parse error:  syntax error, unexpected '$pdo' (T_VARIABLE), expecting function (T_FUNCTION) in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 7
+[27-Jun-2018 09:25:11 UTC] PHP Parse error:  syntax error, unexpected '$pdo' (T_VARIABLE), expecting function (T_FUNCTION) in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 7
+[27-Jun-2018 09:27:52 UTC] PHP Parse error:  syntax error, unexpected '$pdo' (T_VARIABLE), expecting function (T_FUNCTION) in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 7
+[27-Jun-2018 09:28:30 UTC] PHP Parse error:  syntax error, unexpected '$dsn' (T_VARIABLE), expecting function (T_FUNCTION) in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 8
+[27-Jun-2018 09:29:10 UTC] PHP Fatal error:  Class 'php\database\PDO' not found in /home/durveshkumar/public_html/finalrating/app/php/database/Process.php on line 8
+[27-Jun-2018 09:29:54 UTC] PHP Notice:  Undefined variable: dsn in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 20
+[27-Jun-2018 09:29:54 UTC] PHP Notice:  Undefined variable: options in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 20
+[27-Jun-2018 09:29:54 UTC] invalid data source name
+[27-Jun-2018 09:30:26 UTC] PHP Notice:  Undefined variable: dsn in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 20
+[27-Jun-2018 09:30:26 UTC] PHP Notice:  Undefined variable: options in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 20
+[27-Jun-2018 09:30:26 UTC] invalid data source name
+[27-Jun-2018 09:30:49 UTC] PHP Notice:  Undefined variable: dsn in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 20
+[27-Jun-2018 09:30:49 UTC] PHP Notice:  Undefined variable: options in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 20
+[27-Jun-2018 09:30:49 UTC] invalid data source name
+[27-Jun-2018 09:34:21 UTC] PHP Notice:  Undefined variable: dsn in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 20
+[27-Jun-2018 09:34:21 UTC] PHP Notice:  Undefined variable: options in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 20
+[27-Jun-2018 09:34:21 UTC] invalid data source name
+[27-Jun-2018 09:35:05 UTC] PHP Fatal error:  Class 'php\database\PDO' not found in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 20
+[27-Jun-2018 09:35:50 UTC] PHP Notice:  Undefined variable: dsn in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 20
+[27-Jun-2018 09:35:50 UTC] PHP Notice:  Undefined variable: options in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 20
+[27-Jun-2018 09:35:50 UTC] invalid data source name
+[27-Jun-2018 09:37:10 UTC] PHP Notice:  Undefined variable: dsn in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 21
+[27-Jun-2018 09:37:10 UTC] PHP Notice:  Undefined variable: options in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 21
+[27-Jun-2018 09:37:10 UTC] invalid data source name
+[27-Jun-2018 09:37:51 UTC] PHP Notice:  Undefined variable: dsn in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 21
+[27-Jun-2018 09:37:51 UTC] PHP Notice:  Undefined variable: options in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 21
+[27-Jun-2018 09:37:51 UTC] invalid data source name
+[27-Jun-2018 09:39:09 UTC] PHP Notice:  Undefined variable: dsn in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 21
+[27-Jun-2018 09:39:09 UTC] PHP Notice:  Undefined variable: options in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 21
+[27-Jun-2018 09:39:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'invalid data source name' in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php:21
+Stack trace:
+#0 /home/durveshkumar/public_html/finalrating/app/php/database/Database.php(21): PDO->__construct('', 'betaform', 'prem@123', NULL)
+#1 /home/durveshkumar/public_html/finalrating/app/php/database/Process.php(9): php\database\Database->connectToDatabase()
+#2 {main}
+  thrown in /home/durveshkumar/public_html/finalrating/app/php/database/Database.php on line 21

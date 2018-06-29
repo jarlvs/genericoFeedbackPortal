@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+
+
+</head>
+  
+
+<body>
+
+<div class="main">
+<div class="raw"><img src="img/logo2.png" class="logo"></div>
+
+<div class="row center" >
+  
+  <div id="contact_form">
+   <form  name="contact" action="">
+   
+     
+      <h1 style="text-align:center;margin:40px;font-size:45px;">Hi <span id="customerName"></span>, how likely are you to recommend <br>us to a friend or colleague?</h1>
+    
+      <div class="btn-group option" data-toggle="buttons">
+            
+              <label id="num" style="background-color:#ff0000 ;" class="btn btn-default">
+                <input  type="radio" id="rating" name="options" value="0">0
+             </label>
+             <label  id="num" style="background-color:rgb(255, 80, 0);" class="btn btn-default">
+                <input type="radio" id="rating" name="options" value="1"> 1
+             </label>
+             <label id="num" style="background-color:rgb(255, 128, 0);" class="btn btn-default">
+                <input type="radio" id="rating" name="options" value="2"> 2
+             </label>
+             <label id="num" style="background-color:rgb(255, 150, 0);" class="btn btn-default">
+                <input type="radio" id="rating" name="options" value="3"> 3
+             </label>
+             <label id="num" style="background-color:rgb(255, 170, 0);" class="btn btn-default">
+                <input type="radio" id="rating" name="options" value="4"> 4
+             </label>
+             <label id="num" style="background-color:rgb(255, 195, 0);" class="btn btn-default">
+                <input type="radio" id="rating" name="options" value="5"> 5
+             </label>
+               <label id="num" style="background-color:rgb(255, 220, 0);" class="btn btn-default">
+                <input type="radio" id="rating" name="options" value="6"> 6
+             </label>
+             <label id="num" style="background-color:rgb(255, 255, 0);" class="btn btn-default">
+                <input type="radio" id="rating" name="options" value="7"> 7
+             </label>
+             <label id="num" style="background-color:rgb(220, 255, 0);" class="btn btn-default">
+                <input type="radio" id="rating" name="options" value="8"> 8
+             </label>
+             <label id="num" style="background-color:rgb(168, 255, 50);" class="btn btn-default">
+                <input type="radio" id="rating" name="options" value="9"> 9
+             </label>
+             <label id="num" style="background-color:rgb(0, 255, 80);" class="btn btn-default active">
+                <input type="radio" id="rating" name="options" value="10" checked> 10
+             </label>
+      </div>
+      <br>
+
+      <span class="left" style="font-size:35px;">0.Not at all likely</span>
+      <span class="right"  style="font-size:35px;">10.Extremly likely</span>
+      
+      <br>
+
+    <div class="raw">
+     <div class="col-xs-4"></div>
+     <div class="col-xs-4"><input type="submit" class="btn btn-lg btn-success button submitbtn" value="Submit"></div>
+     <div class="col-xs-4"></div>
+    </div>
+
+   </form>
+   </div>
+
+
+   
+</div>
+</div>
+<script type="text/javascript" src="js/process.js"></script>
+<script>
+ 
+          function getParameterByName(name, url) {
+               if (!url) url = window.location.href;
+               name = name.replace(/[\[\]]/g, "\\$&");
+               var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+               results = regex.exec(url);
+               if (!results) return null;
+               if (!results[2]) return '';
+               return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
+      
+      var name = getParameterByName('name');
+      var firstletter = name[0];
+      var letter = firstletter.toUpperCase();
+      var lengthOfname = name.length;
+      var remainingName = name.substring(1, lengthOfname);
+      var addString = letter + remainingName;
+      
+      
+      document.getElementById("customerName").innerHTML =addString;
+      
+  </script>
+</body>
+</html>

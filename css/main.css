@@ -1,0 +1,131 @@
+.main{
+	padding: 60px 0 60px 0;
+}
+
+#num {
+  font-size: 35px;
+  }
+
+.logo{
+	 margin-top: 250px;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;	
+
+}
+
+h1{    
+        margin-top:200px;
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+	
+}
+
+h2{
+	text-align: center;
+	
+}
+label{
+font-family: 'Jua', sans-serif;
+font-size:20px;
+}
+
+.row input {
+font-family: 'Cabin', sans-serif;
+font-size:45px;
+}
+
+
+
+
+.center{
+ margin-top: 50px;
+}
+
+.name{
+ 	padding:40px;
+ 	margin-left:50px;
+ 	width: 90%;
+ }
+
+ .option{
+  	/*width: 100%;*/
+   margin: 0 auto;
+   padding: 30px;
+   margin-left:10px;
+ }
+
+
+.btn-default{
+	padding: 30px;
+}
+
+.submitbtn{
+	width: 268px;
+	padding: 15px;
+	font-size: 36px;
+	margin-top: 25px;
+}
+
+.center .right{
+         font-size:15px;
+	float: right;
+	margin-right: 50px;
+	
+	font-family: 'Cabin', sans-serif;
+}
+
+.center .left {
+        font-size:15px;
+	margin-left: 50px;
+	
+	font-family: 'Cabin', sans-serif;
+}
+
+
+
+@media only screen and (max-width: 1080px){
+.logo{
+width:60%;
+margin-top:50px;
+}
+
+h1{
+margin-top:50px;
+
+}
+
+
+}
+
+@media only screen and (min-width: 1080px) {
+
+.main{
+ margin-right:20px;
+ }
+ 
+.raw{
+	margin-top: -225px;
+}
+
+
+.name{
+ 	padding:40px;
+ 	margin-left:50px;
+ 	width: 90%;
+ }
+ .btn-group{
+  	/*width: 100%;*/
+   padding: 40px;
+   text-align: center;
+   margin-left:255px;
+   /*margin-left: 75px;*/
+ }
+
+ .submitbtn{
+ 	margin-left: 50px;
+ }
+
+
+}
